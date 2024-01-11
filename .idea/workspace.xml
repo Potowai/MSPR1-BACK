@@ -5,23 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66f86e4b-12af-44cf-912d-b8c2a2d5e8eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MSPR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MSPR.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/lib/page/forgetmdp.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/lib/page/signup_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/.dart_tool/dartpad/web_plugin_registrant.dart" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/dartpad/web_plugin_registrant.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/59906ac2072ea23d943f4334a0ae780f.cache.dill.track.dill" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/42aecaae4b71bdb20ce84a1d6000b2ce.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/42aecaae4b71bdb20ce84a1d6000b2ce.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/app/intermediates/assets/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/intermediates/assets/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/app/outputs/flutter-apk/app-debug.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/outputs/flutter-apk/app-debug.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/front/lib/app.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/lib/page/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/front/lib/page/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/front/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/linux/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/front/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/front/linux/flutter/generated_plugins.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/front/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/front/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/windows/flutter/generated_plugin_registrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/front/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/front/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
     "git-widget-placeholder": "main",
     "io.flutter.reload.alreadyRun": "true",
     "last_opened_file_path": "C:/Program Files/flutter/bin",
-    "settings.editor.selected.configurable": "dart.settings",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -83,5 +84,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -7,7 +8,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Arossa-Te'),
+        title: const Text('Arosa-Te'),
         centerTitle: true,
         backgroundColor: Colors.green[800],
       ),
@@ -49,14 +50,14 @@ class HomePage extends StatelessWidget {
             ),
             TextButton(
               onPressed: () {
-                // Ajoutez votre logique pour mot de passe oublié ici
+                GoRouter.of(context).go('/forget');
               },
               child: const Text('Mot de passe oublié ?'),
             ),
             const Divider(color: Colors.black),
             TextButton(
               onPressed: () {
-                // Ajoutez votre logique pour créer un compte ici
+                GoRouter.of(context).go('/signup'); // Naviguer vers la page d'inscription
               },
               child: const Text('Créer un compte'),
             ),
@@ -66,4 +67,5 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
 
