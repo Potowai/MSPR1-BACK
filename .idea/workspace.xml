@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66f86e4b-12af-44cf-912d-b8c2a2d5e8eb" name="Changes" comment="ajout du back">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/jpb-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Botaniste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Conseil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Plante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/SessionsGarde.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Utilisateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/repository/PlanteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="66f86e4b-12af-44cf-912d-b8c2a2d5e8eb" name="Changes" comment="fix du back">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/PlantesDb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/back/PlantesDb.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/dao/PlantesDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entities/Plantes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +122,7 @@
       <workItem from="1705500685279" duration="754000" />
       <workItem from="1705502381081" duration="9746000" />
       <workItem from="1705575252090" duration="2108000" />
-      <workItem from="1705584724969" duration="7806000" />
+      <workItem from="1705584724969" duration="8679000" />
     </task>
     <task id="LOCAL-00001" summary="ajout du back">
       <option name="closed" value="true" />
@@ -151,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704989193518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix du back">
+      <option name="closed" value="true" />
+      <created>1705654780757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705654780758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +171,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajout du back" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout du back" />
+    <MESSAGE value="fix du back" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix du back" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
