@@ -1,56 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-<<<<<<< HEAD
-    <option name="autoReloadType" value="NONE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="66f86e4b-12af-44cf-912d-b8c2a2d5e8eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/front/lib/page/forgetmdp.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/lib/page/signup_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/.filecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/app.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/kernel_snapshot.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/front/.dart_tool/flutter_build/9212815d25e9980012b1e8cecbd52dcb/kernel_snapshot.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/42aecaae4b71bdb20ce84a1d6000b2ce.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/42aecaae4b71bdb20ce84a1d6000b2ce.cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/app/intermediates/assets/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/intermediates/assets/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/build/app/outputs/flutter-apk/app-debug.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/app/outputs/flutter-apk/app-debug.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/front/lib/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/lib/page/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/front/lib/page/home_page.dart" afterDir="false" />
-=======
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66f86e4b-12af-44cf-912d-b8c2a2d5e8eb" name="Changes" comment="fix du back">
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/JacksonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/service/PlanteService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
->>>>>>> dev-afio
+      <change beforePath="$PROJECT_DIR$/back/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Botaniste.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Botaniste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Conseil.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Conseil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Plante.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Plante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/SessionsGarde.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/SessionsGarde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/entity/Utilisateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/repository/PlanteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/epsi/mspr/repository/PlanteRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
-  <component name="ClangdSettings">
-    <option name="formatViaClangd" value="false" />
-=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dockerfile" />
         <option value="com.haulmont.jpb.JpaRepository" />
-        <option value="Class" />
         <option value="com.haulmont.jpb.JpaEntity" />
+        <option value="Class" />
       </list>
     </option>
->>>>>>> dev-afio
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -59,6 +39,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Potowai"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c06dfb91-1a3a-44da-8d42-79729df47f6d" />
+        <option name="url" value="https://github.com/EstebanBouts/MSPR.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -77,69 +71,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.MSPR [clean].executor": "Run",
+    "Maven.MSPR [compile].executor": "Run",
+    "Maven.MSPR [install].executor": "Run",
+    "Maven.MSPR [package].executor": "Run",
+    "Maven.demo [clean].executor": "Run",
+    "Maven.demo [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.StartApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "C:/Program Files/flutter/bin",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "show.migrate.to.gradle.popup": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/EPSI/Projects/epsi-2023-2024/MSPR/back/src/main/java/com/epsi/mspr/entities",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/front/lib/main.dart" />
-      <method v="2" />
-    </configuration>
-  </component>
-=======
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.MSPR [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MSPR [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MSPR [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MSPR [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demo [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demo [package].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.StartApplication.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev-afio&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/EPSI/Projects/epsi-2023-2024/MSPR/back/src/main/java/com/epsi/mspr/entities&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\EPSI\Projects\epsi-2023-2024\MSPR\back\src\main\java\com\epsi\mspr\entities" />
@@ -163,7 +131,6 @@
       </set>
     </attachedChunks>
   </component>
->>>>>>> dev-afio
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -179,7 +146,7 @@
       <workItem from="1705500685279" duration="754000" />
       <workItem from="1705502381081" duration="9746000" />
       <workItem from="1705575252090" duration="2108000" />
-      <workItem from="1705584724969" duration="8679000" />
+      <workItem from="1705584724969" duration="13604000" />
     </task>
     <task id="LOCAL-00001" summary="ajout du back">
       <option name="closed" value="true" />
@@ -208,9 +175,6 @@
       <map>
         <entry key="MAIN">
           <value>
-<<<<<<< HEAD
-            <State />
-=======
             <State>
               <option name="FILTERS">
                 <map>
@@ -224,14 +188,11 @@
                 </map>
               </option>
             </State>
->>>>>>> dev-afio
           </value>
         </entry>
       </map>
     </option>
   </component>
-<<<<<<< HEAD
-=======
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajout du back" />
     <MESSAGE value="fix du back" />
@@ -247,5 +208,4 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
->>>>>>> dev-afio
 </project>

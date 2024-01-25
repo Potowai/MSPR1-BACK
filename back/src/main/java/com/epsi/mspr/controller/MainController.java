@@ -2,6 +2,7 @@ package com.epsi.mspr.controller;
 
 import com.epsi.mspr.entity.Plante;
 import com.epsi.mspr.repository.PlanteRepository;
+import com.epsi.mspr.service.PlanteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +17,7 @@ import java.util.Map;
 public class MainController {
 
     @Autowired
-    private PlanteRepository planteRepository;
+    private PlanteService planteService;
 
     @GetMapping("/map")
     public Map<String, String> getMap() {
@@ -34,6 +35,6 @@ public class MainController {
 
     @GetMapping("/plantes")
     public List<Plante> getPlantes() {
-        return planteRepository.findAll();
+        return planteService.getPlantes();
     }
 }
