@@ -1,17 +1,22 @@
 package com.epsi.mspr.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.io.Serializable;
+import java.sql.Blob;
+import java.util.Base64;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-@Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
 @Table(name = "plantes")
-public class Plante {
+public class Plante implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_plante", nullable = false)
@@ -27,14 +32,18 @@ public class Plante {
     @Column(name = "instructions_soin")
     private String instructionsSoin;
 
+    @Lob
+    @Column(name = "imageUrl")
+    private Blob imageData;
+
+    @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_utilisateur")
-    private Utilisateur idUtilisateur;
-
-    @OneToMany(mappedBy = "idPlante")
+    private Utilisateur utilisateur;
+    @JsonIgnore
+    @OneToMany(mappedBy = "plante")
     private Set<Conseil> conseils = new LinkedHashSet<>();
-
-    @OneToMany(mappedBy = "idPlante")
+    @JsonIgnore
+    @OneToMany(mappedBy = "plante")
     private Set<SessionsGarde> sessionsGardes = new LinkedHashSet<>();
-
 }
