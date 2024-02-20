@@ -3,8 +3,12 @@ package com.epsi.mspr.repository;
 import com.epsi.mspr.entity.Utilisateur;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UtilisateurRepository extends JpaRepository<Utilisateur, Integer> {
-    Utilisateur findByEmail(String email);
+import java.util.Optional;
 
-    Utilisateur findByNom(String nom);
+public interface UtilisateurRepository extends JpaRepository<Utilisateur, Integer> {
+    Optional<Utilisateur> findByEmail(String email);
+    Optional<Utilisateur> findByNomOrEmail(String nom, String email);
+    Optional<Utilisateur> findByNom(String nom);
+    Boolean existsByNom(String nom);
+    Boolean existsByEmail(String email);
 }

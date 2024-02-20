@@ -28,13 +28,16 @@ public class Plante implements Serializable {
     @Column(name = "type", length = 100)
     private String type;
 
+    @Column(name = "description", length = 100)
+    private String description;
+
     @Lob
     @Column(name = "instructions_soin")
     private String instructionsSoin;
 
     @Lob
     @Column(name = "imageUrl")
-    private Blob imageData;
+    private String imageUrl;
 
     @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY)
