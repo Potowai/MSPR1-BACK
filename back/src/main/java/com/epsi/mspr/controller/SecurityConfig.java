@@ -36,11 +36,11 @@ public class SecurityConfig {
 
         http.csrf().disable()
                 .authorizeHttpRequests((authorize) ->
-                        //authorize.anyRequest().authenticated()
-                        authorize.requestMatchers(HttpMethod.GET, "/api/**").permitAll()
+                        authorize.anyRequest().permitAll()
+                        /*authorize.requestMatchers(HttpMethod.GET, "/api/**").permitAll()
                                 .requestMatchers( "/swagger-ui/index.html#").permitAll()
                                 .requestMatchers("/api/auth/**").permitAll()
-                                .anyRequest().authenticated()
+                                .anyRequest().authenticated()*/
 
                 );
 
