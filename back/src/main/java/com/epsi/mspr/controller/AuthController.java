@@ -2,9 +2,7 @@ package com.epsi.mspr.controller;
 
 import com.epsi.mspr.dto.LoginDto;
 import com.epsi.mspr.dto.SignUpDto;
-import com.epsi.mspr.entity.Role;
 import com.epsi.mspr.entity.Utilisateur;
-import com.epsi.mspr.repository.RoleRepository;
 import com.epsi.mspr.repository.UtilisateurRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,10 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Collections;
-
 @RestController
-@RequestMapping("/api/auth")
+@RequestMapping("/auth")
 public class AuthController {
 
     @Autowired
@@ -31,8 +27,6 @@ public class AuthController {
     @Autowired
     private UtilisateurRepository userRepository;
 
-    @Autowired
-    private RoleRepository roleRepository;
 
     @Autowired
     private PasswordEncoder passwordEncoder;
@@ -65,9 +59,7 @@ public class AuthController {
         user.setNom(signUpDto.getName());
         user.setEmail(signUpDto.getEmail());
         user.setMotDePasse(passwordEncoder.encode(signUpDto.getPassword()));
-
-        Role roles = roleRepository.findByName("ROLE_ADMIN").get();
-        user.setRoles(Collections.singleton(roles));
+        user.setRole("ROLE_USER");
 
         userRepository.save(user);
 

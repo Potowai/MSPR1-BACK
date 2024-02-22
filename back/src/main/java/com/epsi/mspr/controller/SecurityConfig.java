@@ -21,7 +21,7 @@ import org.springframework.security.web.SecurityFilterChain;
 public class SecurityConfig {
 
     @Bean
-    public static PasswordEncoder passwordEncoder(){
+    public static PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
 
@@ -34,9 +34,15 @@ public class SecurityConfig {
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
-        http.csrf().disable()
-                .authorizeHttpRequests((authorize) ->
-                        authorize.anyRequest().permitAll()
+        http.csrf().disable();
+        http.authorizeHttpRequests(authorize -> authorize
+                .requestMatchers("/userinfos").authenticated()
+                .requestMatchers("/register").permitAll()
+                .requestMatchers("/getUserRoles").hasAuthority("ROLE_WRITE")
+                .requestMatchers("/swagger-ui/index.html#").permitAll()
+                .requestMatchers("/api/auth/**").permitAll()
+                .anyRequest().authenticated()
+        //authorize.anyRequest().permitAll()
                         /*authorize.requestMatchers(HttpMethod.GET, "/api/**").permitAll()
                                 .requestMatchers( "/swagger-ui/index.html#").permitAll()
                                 .requestMatchers("/api/auth/**").permitAll()
@@ -46,4 +52,5 @@ public class SecurityConfig {
 
         return http.build();
     }
+
 }

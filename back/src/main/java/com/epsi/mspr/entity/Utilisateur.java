@@ -29,6 +29,8 @@ public class Utilisateur implements Serializable {
     @Column(name = "mot_de_passe")
     private String motDePasse;
 
+    @Column(name = "role")
+    private String role;
 
     @Column(name="latitude")
     private Double latitude;
@@ -54,9 +56,4 @@ public class Utilisateur implements Serializable {
     @OneToMany(mappedBy = "utilisateur")
     private Set<SessionsGarde> sessionsGardes = new LinkedHashSet<>();
 
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinTable(name = "user_roles",
-            joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
-            inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
-    private Set<Role> roles;
 }
