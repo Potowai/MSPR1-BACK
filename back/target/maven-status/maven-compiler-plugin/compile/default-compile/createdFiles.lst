@@ -1,7 +1,6 @@
 com\epsi\mspr\entity\Specialisation.class
 com\epsi\mspr\dto\SignUpDto.class
 com\epsi\mspr\repository\PlanteRepository.class
-com\epsi\mspr\controller\AuthController.class
 com\epsi\mspr\repository\ExperienceRepository.class
 com\epsi\mspr\service\UtilisateurService.class
 com\epsi\mspr\entity\Experience.class
@@ -13,9 +12,7 @@ com\epsi\mspr\repository\ConseilRepository.class
 com\epsi\mspr\repository\AdresseRepository.class
 com\epsi\mspr\controller\SecurityConfig.class
 com\epsi\mspr\dto\LoginDto.class
-com\epsi\mspr\service\CustomUserDetailsService.class
 com\epsi\mspr\StartApplication.class
-com\epsi\mspr\entity\MyUserPrincipal.class
 com\epsi\mspr\entity\SessionsGarde.class
 com\epsi\mspr\entity\Adresse.class
 com\epsi\mspr\entity\Utilisateur.class

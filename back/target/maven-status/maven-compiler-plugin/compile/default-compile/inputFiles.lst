@@ -6,15 +6,12 @@ C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\msp
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\entity\Conseil.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\entity\Specialisation.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\service\UtilisateurService.java
-C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\entity\MyUserPrincipal.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\controller\UtilisateurController.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\entity\Adresse.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\repository\SpecialisationRepository.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\entity\SessionsGarde.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\repository\PlanteRepository.java
-C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\controller\AuthController.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\dto\SignUpDto.java
-C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\service\CustomUserDetailsService.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\repository\UtilisateurRepository.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\repository\SessionsGardeRepository.java
 C:\Users\EPSI\Projects\epsi-2023-2024\MSPR1-BACK\back\src\main\java\com\epsi\mspr\controller\SecurityConfig.java
