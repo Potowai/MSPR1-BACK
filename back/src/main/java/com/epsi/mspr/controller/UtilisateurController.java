@@ -26,7 +26,7 @@ public class UtilisateurController {
 
     @PostMapping("/login")
     public boolean loginUtilisateur(@RequestBody Utilisateur utilisateur) {
-        return utilisateurRepository.findByEmail(utilisateur.getEmail()).map(user -> utilisateur.getMotDePasse().equals(user.getMotDePasse())).orElse(false);
+        return utilisateurRepository.findByEmail(utilisateur.getEmail()).map(user -> passwordEncoder.matches(utilisateur.getMotDePasse(), user.getMotDePasse())).orElse(false);
     }
     @GetMapping("/userinfos")
     public Optional<Utilisateur> getUserInfos(@RequestParam String email) {
