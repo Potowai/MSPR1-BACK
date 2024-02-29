@@ -2,7 +2,6 @@ package com.epsi.mspr.controller;
 
 import com.epsi.mspr.entity.Utilisateur;
 import com.epsi.mspr.repository.UtilisateurRepository;
-import com.epsi.mspr.service.UtilisateurService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
@@ -25,6 +24,10 @@ public class UtilisateurController {
         return utilisateurRepository.save(utilisateur);
     }
 
+    @PostMapping("/login")
+    public boolean loginUtilisateur(@RequestBody Utilisateur utilisateur) {
+        return utilisateurRepository.findByEmail(utilisateur.getEmail()).map(user -> utilisateur.getMotDePasse().equals(user.getMotDePasse())).orElse(false);
+    }
     @GetMapping("/userinfos")
     public Optional<Utilisateur> getUserInfos(@RequestParam String email) {
         return utilisateurRepository.findByEmail(email);
