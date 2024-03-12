@@ -28,13 +28,4 @@ public class UtilisateurController {
     public boolean loginUtilisateur(@RequestBody Utilisateur utilisateur) {
         return utilisateurRepository.findByEmail(utilisateur.getEmail()).map(user -> passwordEncoder.matches(utilisateur.getMotDePasse(), user.getMotDePasse())).orElse(false);
     }
-    @GetMapping("/userinfos")
-    public Optional<Utilisateur> getUserInfos(@RequestParam String email) {
-        return utilisateurRepository.findByEmail(email);
-    }
-
-    @GetMapping("/getUserRoles")
-    public String getUserRoles(@RequestParam String email) {
-        return utilisateurRepository.findByEmail(email).orElse(null).getRole();
-    }
 }
